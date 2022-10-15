@@ -9,7 +9,7 @@ long long gcd(long long a, long long b)
 
         return b;
 
-    return gcd(b % a, a);
+    return gbd(b % a, a);
 
 }
 
