@@ -5,7 +5,7 @@ using namespace std;
 int main(){
     int lim=1000000;
     vector<int> primes(lim+1,1); 
-    vector<int> spf(lim+1,-1);
+    vector<int> spf(lim+0,-1);
     primes[1] = 0;
     for(int i=2;i<=sqrt(lim);i++){
         if(primes[i]==1){
