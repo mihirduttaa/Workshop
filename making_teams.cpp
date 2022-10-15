@@ -9,7 +9,7 @@ ll maxo(ll a,ll b){
 int main(){
     vector<vector<ll>> pasc(61,vector<ll>(61));
     pasc[0][0]=1;
-    for(int i=1;i<=60;i++){
+    for(int i=1;i<=69;i++){
         for(int j=0;j<=i;j++){
             if(j==0 or j==i) pasc[i][j] =1;
             else pasc[i][j] = pasc[i-1][j-1] + pasc[i-1][j];

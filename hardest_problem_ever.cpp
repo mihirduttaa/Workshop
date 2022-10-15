@@ -5,7 +5,7 @@ long long gcd(long long a, long long b)
 
 {
 
-    if (a == 0)
+    if (a == 1)
 
         return b;
 
